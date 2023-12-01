@@ -1,0 +1,128 @@
+
+
+/*-------------------App.Java section-------------------------- */
+.root {
+    -fx-background-color: #A2C8C8;
+}
+
+#playButton{
+	-fx-text-fill: blueviolet;
+	-fx-font-size: 30
+}
+
+#logInButton{
+	-fx-text-fill: blueviolet
+}
+
+#signInButton{
+	-fx-text-fill: blueviolet
+}
+
+
+/*-------------------signUpWindow.Java section--------------------------*/
+#sign_rectFrame{
+	-fx-fill: #E9F9F6;
+	-fx-arc-width: 40;
+	-fx-arc-height: 40
+}
+
+#sign_TitleLabel{
+	-fx-font-size: 28;
+	-fx-background-radius: 10;
+	-fx-font-weight: bold;
+	-fx-font-family: "courier new";
+		
+}
+
+#sign_UsernameLabel{
+	-fx-font-size: 20;
+	-fx-background-radius: 10;
+	/*-fx-font-weight: bold;*/
+	-fx-font-family: "courier new";
+	-fx-background-color: #CFB5FF
+		
+}
+
+#sign_PasswordLabel{
+	-fx-font-size: 20;
+	-fx-background-radius: 10;
+	/*-fx-font-weight: bold;*/
+	-fx-font-family: "courier new";
+	-fx-background-color: #CFB5FF		
+}
+
+#sign_signUpButton{
+	-fx-text-fill: white;
+	-fx-background-radius: 10;
+	-fx-background-color: #00796b;
+	-fx-font-size: 16
+	
+}
+#sign_signUpButton:hover {
+    -fx-background-color: #005a4f; /* Cambia el color de fondo al pasar el cursor sobre el botón de inicio de sesión */
+}
+
+#sign_closeButton{
+	-fx-text-fill: black;
+	-fx-background-radius: 10;
+	-fx-background-color: #E0E0E0;
+	-fx-font-size: 16
+}
+#sign_closeButton:hover {
+    -fx-background-color: #BDBDBD; /* Cambia el color de fondo al pasar el cursor sobre el botón de cierre */
+}
+
+
+/*-------------------logInWindow.Java section--------------------------*/
+#log_rectFrame{
+	-fx-fill: #E9F9F6;
+	-fx-arc-width: 40;
+	-fx-arc-height: 40
+}
+
+#log_TitleLabel{
+	-fx-font-size: 28;
+	-fx-background-radius: 10;
+	-fx-font-weight: bold;
+	-fx-font-family: "courier new";
+		
+}
+
+#log_UsernameLabel{
+	-fx-font-size: 20;
+	-fx-background-radius: 10;
+	/*-fx-font-weight: bold;*/
+	-fx-font-family: "courier new";
+	-fx-background-color: #CFB5FF
+		
+}
+
+#log_PasswordLabel{
+	-fx-font-size: 20;
+	-fx-background-radius: 10;
+	/*-fx-font-weight: bold;*/
+	-fx-font-family: "courier new";
+	-fx-background-color: #CFB5FF		
+}
+
+#log_logInButton{
+	-fx-text-fill: white;
+	-fx-background-radius: 10;
+	-fx-background-color: #00796b;
+	-fx-font-size: 16
+	
+}
+#log_logInButton:hover {
+    -fx-background-color: #005a4f; /* Cambia el color de fondo al pasar el cursor sobre el botón de inicio de sesión */
+}
+
+#log_closeButton{
+	-fx-text-fill: black;
+	-fx-background-radius: 10;
+	-fx-background-color: #E0E0E0;
+	-fx-font-size: 16
+}
+#log_closeButton:hover {
+    -fx-background-color: #BDBDBD; /* Cambia el color de fondo al pasar el cursor sobre el botón de cierre */
+}
+/*-------------------rankingWindow.Java section--------------------------*/
